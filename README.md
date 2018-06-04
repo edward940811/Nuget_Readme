@@ -37,4 +37,5 @@ PS C:\Users\repos> Nuget.exe sources Add -Name "test" -Source "http://xxxxxxxxxx
 PS C:\Users\repos> .\NuGet.exe push -source "testpackage" -ApiKey VSTS .\myPackage.1.0.0.nupkg
 
 %% 不要用nuget.org已經有的package名稱 ex. Calculator.nupkg
+
 %% 若需要瀏覽注意是否有Package Management權限
